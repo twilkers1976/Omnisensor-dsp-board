@@ -1,0 +1,249 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "55abd4a8-04e1-4339-a381-f74fb45c2407")
+	(paper "A4")
+	(lib_symbols)
+	(text "DSP"
+		(exclude_from_sim no)
+		(at 214.63 176.022 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "60e8061e-b8ff-4bb0-b280-d1acb514ae10")
+	)
+	(sheet
+		(at 216.408 35.306)
+		(size 31.877 34.798)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2323853f-49c4-45ce-844c-386ccc5e0ffb")
+		(property "Sheetname" "bypass_caps"
+			(at 216.408 34.5944 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bypass_caps.kicad_sch"
+			(at 216.408 70.6886 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cpu_board"
+				(path "/7975c8f3-1a19-46fb-b148-fc750b2219b9/85fcbb59-012b-4548-8e3e-0cae2a5bc0e0"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 95.25 35.56)
+		(size 31.75 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "89420b86-59d2-4f27-91a5-5c4f81cdbe45")
+		(property "Sheetname" "sc573_power"
+			(at 95.25 34.8484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sc573_power.kicad_sch"
+			(at 95.25 70.4346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cpu_board"
+				(path "/7975c8f3-1a19-46fb-b148-fc750b2219b9/85fcbb59-012b-4548-8e3e-0cae2a5bc0e0"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 55.245 35.56)
+		(size 31.75 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "bc33d60a-d468-48ca-a469-16fe2d11c4b7")
+		(property "Sheetname" "dsp_ports"
+			(at 55.245 34.8484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dsp_ports.kicad_sch"
+			(at 55.245 70.4346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cpu_board"
+				(path "/7975c8f3-1a19-46fb-b148-fc750b2219b9/85fcbb59-012b-4548-8e3e-0cae2a5bc0e0"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 135.89 35.56)
+		(size 31.75 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "da44d128-1ba6-4997-b16e-1de578e5566a")
+		(property "Sheetname" "sc573_system"
+			(at 135.89 34.8484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sc573_system.kicad_sch"
+			(at 135.89 70.4346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cpu_board"
+				(path "/7975c8f3-1a19-46fb-b148-fc750b2219b9/85fcbb59-012b-4548-8e3e-0cae2a5bc0e0"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 175.895 35.56)
+		(size 31.75 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e55df251-ec4b-45f9-ac1b-a9c909af33ff")
+		(property "Sheetname" "ddr"
+			(at 175.895 34.8484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ddr.kicad_sch"
+			(at 175.895 70.4346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cpu_board"
+				(path "/7975c8f3-1a19-46fb-b148-fc750b2219b9/85fcbb59-012b-4548-8e3e-0cae2a5bc0e0"
+					(page "6")
+				)
+			)
+		)
+	)
+)

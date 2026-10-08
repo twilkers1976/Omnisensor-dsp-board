@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "omnisensor") (type "KiCad") (uri "${KIPRJMOD}/omnisensor.pretty") (options "") (descr ""))
+)

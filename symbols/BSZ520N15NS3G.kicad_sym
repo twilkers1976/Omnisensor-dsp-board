@@ -1,0 +1,226 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "BSZ900N15NS3_G" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "Q" (id 0) (at -4.60355 8.18011 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "BSZ900N15NS3_G" (id 1) (at -5.11098 -9.96749 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "BSZ900N15NS3_G:SON65P330X330X110-9N" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "Infineon Technologies" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "DESCRIPTION" "N-Channel 150 V 90 mOhm OptiMOS3 Power-Transistor - PG-TSDSON-8" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PACKAGE" "PowerTDFN-8 Infineon" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PRICE" "0.68 USD" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "PowerTDFN-8 Infineon" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/BSZ900N15NS3%20G/Infineon/view-part/?ref=eda" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "manufacturer recommendation" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "2.1" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/BSZ900N15NS3%20G/Infineon/view-part/?ref=snap" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "BSZ900N15NS3 G" (id 13) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 14) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\n                        \n                            N-Channel 150 V 13A (Tc) 38W (Tc) Surface Mount PG-TSDSON-8\n                        \n" (id 15) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "Not in stock" (id 16) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "AVAILABILITY" "Good" (id 17) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "Infineon" (id 18) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "BSZ900N15NS3_G_0_0"
+      (polyline
+        (pts (xy -3.556 2.54) (xy -3.556 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -3.556 -2.54) (xy -5.08 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -2.032 -2.159) (xy 0.0 -2.159)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -2.159 0.0) (xy 0.0 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.762 0.508) (xy 1.27 0.508)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.27 0.508) (xy 1.778 0.508)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.27 2.159) (xy 0.0 2.159)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 2.159) (xy -2.0066 2.159)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.27 0.508) (xy 1.27 2.159)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.27 -2.159) (xy 1.27 -0.127)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.27 -2.159) (xy 0.0 -2.159)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 0.0) (xy 0.0 -2.159)) (stroke (width 0.1524))
+      )
+      (circle (center 0.0 2.159) (radius 0.127)
+        (stroke (width 0.4064)) (fill (type none))
+      )
+      (circle (center 0.0 -2.159) (radius 0.127)
+        (stroke (width 0.4064)) (fill (type none))
+      )
+      (text "D" (at -1.14646 3.56676 0)
+        (effects (font (size 0.815259 0.815259)) (justify bottom left))
+      )
+      (text "S" (at -1.14856 -4.33898 0)
+        (effects (font (size 0.816747 0.816747)) (justify bottom left))
+      )
+      (text "G" (at -4.8501 -1.78688 0)
+        (effects (font (size 0.816857 0.816857)) (justify bottom left))
+      )
+      (rectangle (start -2.80607 -2.80607) (end -2.032 -1.27)
+        (stroke (width 0.1)) (fill (type outline))
+      )
+      (rectangle (start -2.8051 1.27505) (end -2.032 2.794)
+        (stroke (width 0.1)) (fill (type outline))
+      )
+      (rectangle (start -2.80396 -0.892169) (end -2.032 0.889)
+        (stroke (width 0.1)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 1.27 0.508)
+          (xy 0.762 -0.254)
+          (xy 1.778 -0.254)
+          (xy 1.27 0.508)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy -1.905 0.0)
+          (xy -0.635 -0.508)
+          (xy -0.635 0.508)
+          (xy -1.905 0.0)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts (xy 5.08 5.08) (xy 0.0 5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 5.08) (xy 0.0 2.159)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 5.08 -5.08) (xy 0.0 -5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 -5.08) (xy 0.0 -2.159)) (stroke (width 0.1524))
+      )
+      (rectangle (start -5.08 -7.62) (end 5.08 7.62)
+        (stroke (width 0.127)) (fill (type background))
+      )
+      (pin passive line (at -10.16 -2.54 0) (length 5.08)
+        (name "G"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 -5.08 180.0) (length 5.08)
+        (name "S"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 -5.08 180.0) (length 5.08) hide
+        (name "S"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 -5.08 180.0) (length 5.08) hide
+        (name "S"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 5.08 180.0) (length 5.08)
+        (name "D"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 5.08 180.0) (length 5.08) hide
+        (name "D"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 5.08 180.0) (length 5.08) hide
+        (name "D"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 5.08 180.0) (length 5.08) hide
+        (name "D"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 5.08 180.0) (length 5.08) hide
+        (name "D"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

@@ -1,0 +1,111 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "55abd4a8-04e1-4339-a381-f74fb45c2407")
+	(paper "A4")
+	(lib_symbols)
+	(text "PoE"
+		(exclude_from_sim no)
+		(at 214.63 176.022 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "38be82aa-3993-48c6-9a78-766962624ecf")
+	)
+	(sheet
+		(at 53.34 46.99)
+		(size 38.1 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "23f038af-c45a-425c-9b0d-353305856887")
+		(property "Sheetname" "IdealDiodes_Magnetics"
+			(at 53.34 46.2784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "idealdiodes_magnetics.kicad_sch"
+			(at 53.34 84.4046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cpu_board"
+				(path "/7975c8f3-1a19-46fb-b148-fc750b2219b9/4116b4c8-29e3-4a73-bad7-16d83ad82e7a"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 46.99)
+		(size 38.1 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c605f2b3-2f4b-4a79-b42a-2ac82dcd380f")
+		(property "Sheetname" "PoE_Controller"
+			(at 106.68 46.2784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "poe_controller.kicad_sch"
+			(at 106.68 84.4046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cpu_board"
+				(path "/7975c8f3-1a19-46fb-b148-fc750b2219b9/4116b4c8-29e3-4a73-bad7-16d83ad82e7a"
+					(page "14")
+				)
+			)
+		)
+	)
+)

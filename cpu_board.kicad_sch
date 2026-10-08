@@ -1,0 +1,427 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "7975c8f3-1a19-46fb-b148-fc750b2219b9")
+	(paper "A4")
+	(lib_symbols)
+	(text "PoE\n"
+		(exclude_from_sim no)
+		(at 171.45 52.07 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "1979cd19-dd8d-4562-9271-e9f2e24d67f6")
+	)
+	(text "Extern Memory"
+		(exclude_from_sim no)
+		(at 172.72 86.36 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "1c5a047e-a9eb-48a6-aea3-65e24814c44e")
+	)
+	(text "IO Connectors\n"
+		(exclude_from_sim no)
+		(at 97.536 85.344 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "48d0476a-0907-4280-8083-4baa63843770")
+	)
+	(text "Ethernet Phy"
+		(exclude_from_sim no)
+		(at 135.636 51.816 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "4a4dad25-e067-4077-845b-e25d86feac13")
+	)
+	(text "Power Controller\nand Regulators\n"
+		(exclude_from_sim no)
+		(at 97.282 51.562 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "5221e2c5-4954-493b-b735-245f9a0c2bcc")
+	)
+	(text "DSP"
+		(exclude_from_sim no)
+		(at 58.42 52.324 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "54c96d09-b20e-4f18-85a8-cf2646b1ef4c")
+	)
+	(text "USB\n"
+		(exclude_from_sim no)
+		(at 57.658 85.598 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "9e2bd6d6-14b0-4660-9ab6-891c2b3d37dd")
+	)
+	(sheet
+		(at 80.01 73.66)
+		(size 34.29 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "00bc52b4-d294-420a-81ec-7db83ace5469")
+		(property "Sheetname" "IO_Connectors"
+			(at 80.01 72.9484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "io_connectors.kicad_sch"
+			(at 80.01 99.6446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cpu_board"
+				(path "/7975c8f3-1a19-46fb-b148-fc750b2219b9"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 80.01 39.37)
+		(size 34.29 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0b290072-4583-4a94-b763-a5afb1ea33d6")
+		(property "Sheetname" "power"
+			(at 80.01 38.6584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 80.01 64.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cpu_board"
+				(path "/7975c8f3-1a19-46fb-b148-fc750b2219b9"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 118.11 39.37)
+		(size 34.29 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "396ebb12-538f-4c3c-b747-9ac9a730949d")
+		(property "Sheetname" "Ethernet"
+			(at 118.11 38.6584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ethernet.kicad_sch"
+			(at 118.11 64.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cpu_board"
+				(path "/7975c8f3-1a19-46fb-b148-fc750b2219b9"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 156.21 39.37)
+		(size 33.02 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4116b4c8-29e3-4a73-bad7-16d83ad82e7a")
+		(property "Sheetname" "PoE"
+			(at 156.21 38.6584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "poe.kicad_sch"
+			(at 156.21 64.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cpu_board"
+				(path "/7975c8f3-1a19-46fb-b148-fc750b2219b9"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 41.91 39.37)
+		(size 34.29 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "85fcbb59-012b-4548-8e3e-0cae2a5bc0e0")
+		(property "Sheetname" "SC573"
+			(at 41.91 38.6584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sc573.kicad_sch"
+			(at 41.91 64.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cpu_board"
+				(path "/7975c8f3-1a19-46fb-b148-fc750b2219b9"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 41.91 73.66)
+		(size 34.29 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "becadfbd-7aad-4a83-9a4d-ec1d4308d94f")
+		(property "Sheetname" "usb"
+			(at 41.91 72.9484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 41.91 99.6446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cpu_board"
+				(path "/7975c8f3-1a19-46fb-b148-fc750b2219b9"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 156.21 74.93)
+		(size 31.75 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "fcb4e9af-e2e7-41ab-bb0d-391dc5040a99")
+		(property "Sheetname" "extern_memory"
+			(at 156.21 74.2184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "extern_memory.kicad_sch"
+			(at 156.21 99.6446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cpu_board"
+				(path "/7975c8f3-1a19-46fb-b148-fc750b2219b9"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "omniserver.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WAPCj0VAObdXiEAtxsWHGS5ac4JWlhdTS3ZQeABkGbFFme+cSP//z/UEwFUAE4AWQAj/scf
+				if/jsXnSvtaTvZHzHRcNGLVmfz60JL9WNGAWbT/Z8kv+BQAgICBF7+W0Jq04lQ2dI5JVZ/xe9use
+				Q0YpveqsfbEts48KgICgDJE4oQfaUCFXAfAXd2hjtUtMVrTqL/l/j80Lqz0xUymD177npOfsN2Pw
+				xZ49qxCIxa9dfPvtn+/winD2uuq/Po4YrF07vI64elLan70vq6p99O6DngPZSc9y2SyaxU8WE4r4
+				a0TlNNtl5JcsqzpCLUQvJqVUOMxl03AcWoOLoAiYhfWkdGElWpGltk5zcLYMBsOhCM3w9xw5Z1P2
+				vw62qWO/FIGw2lQzVazn932TBgGBoSYqtrjqhaiLiybqvGhH2Sam65Ejbsy6oWiWSaWhgHSapds2
+				CCbLLgsx0SibhHvYB2hF720rrEk3Scd14tuu0tD2u38wFbNoZwrF4JAahFzV740ZdzqAhKARQWYU
+				mhopSJIUOnBEpOaoG9xUK3zkHx0dsmBDZDvcM9WNmVBreVvoarmtYJDAxpj59J3Jsv+grDB2GYi6
+				3cLgkck2yA0WD5j3QOeXA3G6ALPYnp/QoTBvruCJ7jJh4DqnYcra2OVV7KEK08mTOQSFhRDYWNo+
+				APAjMPSh7ywXn7NWDmd0gKFOT/02YbEixhUFM6EyNAHZTpINxaJx1O38oH/lQmxbzBkz9ug9q2GE
+				jph40ahkzUQee8p1JPWOltr6AwcBzVnqg2YlrxzhgN2+yn3YEEAyCGtYdPxrr8y3reHTXhgYORVJ
+				6cFNSLiAh4M50U3smIaVbdHD/NWg4YDDLBotd7boIKV1SVkbkUNO/Ii9RIk2db42HOsDwXIRtpGT
+				BqRj0Ks=|
+			)
+			(checksum "DB8F296036EDDEC474AC48D809C63057")
+		)
+	)
+)
