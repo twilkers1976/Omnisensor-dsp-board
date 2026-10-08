@@ -23758,7 +23758,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "KOA"
+		(property "Manufacturer" "Vishay"
 			(at 88.9 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -23769,7 +23769,7 @@
 				)
 			)
 		)
-		(property "Part Number" "RN73H1JTTD3301F100"
+		(property "Part Number" "MCT06030C3301FP500"
 			(at 88.9 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -33858,7 +33858,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "KOA"
+		(property "Manufacturer" "Yageo"
 			(at 195.58 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -33869,7 +33869,7 @@
 				)
 			)
 		)
-		(property "Part Number" "RN73H1JTTD2612F100"
+		(property "Part Number" "RT0603BRD0726K1L"
 			(at 195.58 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -34049,7 +34049,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "53.2K"
+		(property "Value" "52.3K"
 			(at 63.754 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34093,7 +34093,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "KOA"
+		(property "Manufacturer" "TE Connectivity Passive Product"
 			(at 64.77 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -34104,7 +34104,7 @@
 				)
 			)
 		)
-		(property "Part Number" "RN73H1JTTD5232F100"
+		(property "Part Number" "CPF0603F52K3C1"
 			(at 64.77 101.6 0)
 			(hide yes)
 			(show_name no)

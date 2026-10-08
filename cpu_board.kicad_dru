@@ -1,0 +1,91 @@
+(version 1)
+
+(rule "U2_BGA_escape_clearance"
+    (condition "A.insideCourtyard('U2') || B.insideCourtyard('U2')")
+    (constraint clearance (min 0.127mm))
+)
+
+(rule "U2_BGA_escape_track_width"
+    (condition "A.insideCourtyard('U2')")
+    (constraint track_width (min 0.127mm))
+)
+
+(rule "U6_BGA_escape_clearance"
+    (condition "A.insideCourtyard('U6') || B.insideCourtyard('U6')")
+    (constraint clearance (min 0.127mm))
+)
+
+(rule "U6_BGA_escape_track_width"
+    (condition "A.insideCourtyard('U6')")
+    (constraint track_width (min 0.127mm))
+)
+
+(rule "U16_eMMC_via_in_pad_diameter"
+    (condition "A.insideArea('U16_via_in_pad_field')")
+    (constraint via_diameter (min 0.35mm) (max 0.35mm))
+)
+
+(rule "U16_eMMC_via_in_pad_hole"
+    (condition "A.insideArea('U16_via_in_pad_field')")
+    (constraint hole_size (min 0.14mm) (max 0.15mm))
+)
+
+(rule "U16_eMMC_escape_clearance"
+    (condition "(A.insideCourtyard('U16') || B.insideCourtyard('U16')) && A.Type != 'Zone' && B.Type != 'Zone'")
+    (constraint clearance (min 0.10mm))
+)
+
+(rule "U3_QFN_thermal_pad_clearance"
+    (condition "A.insideCourtyard('U3') || B.insideCourtyard('U3')")
+    (constraint clearance (min 0.19mm))
+)
+
+(rule "J4_J20_USBC_pad_clearance"
+    (condition "(A.insideCourtyard('J4') && B.insideCourtyard('J4')) || (A.insideCourtyard('J20') && B.insideCourtyard('J20'))")
+    (constraint clearance (min 0.19mm))
+)
+
+(rule "J4_J20_USBC_hole_clearance"
+    (condition "(A.insideCourtyard('J4') && B.insideCourtyard('J4')) || (A.insideCourtyard('J20') && B.insideCourtyard('J20'))")
+    (constraint hole_clearance (min 0.17mm))
+)
+
+(rule "U5_MLF_thermal_pad_clearance"
+    (condition "A.insideCourtyard('U5') && B.insideCourtyard('U5') && A.Type == 'Pad' && B.Type == 'Pad'")
+    (constraint clearance (min 0.13mm))
+)
+
+(rule "U7_QFN28_pad_clearance"
+    (condition "A.insideCourtyard('U7') && B.insideCourtyard('U7') && A.Type == 'Pad' && B.Type == 'Pad'")
+    (constraint clearance (min 0.15mm))
+)
+
+(rule "U38_QFN24_pad_clearance"
+    (condition "A.insideCourtyard('U38') && B.insideCourtyard('U38') && A.Type == 'Pad' && B.Type == 'Pad'")
+    (constraint clearance (min 0.15mm))
+)
+
+(rule "U32_QFN40_pad_clearance"
+    (condition "A.insideCourtyard('U32') && B.insideCourtyard('U32') && A.Type == 'Pad' && B.Type == 'Pad'")
+    (constraint clearance (min 0.18mm))
+)
+
+(rule "U1_QFN16_thermal_pad_clearance"
+    (condition "A.insideCourtyard('U1') && B.insideCourtyard('U1') && A.Type == 'Pad' && B.Type == 'Pad'")
+    (constraint clearance (min 0.2mm))
+)
+
+(rule "U15_BGA_pad_clearance"
+    (condition "A.insideCourtyard('U15') && B.insideCourtyard('U15') && A.Type == 'Pad' && B.Type == 'Pad'")
+    (constraint clearance (min 0.15mm))
+)
+
+(rule "RNx_resistor_array_pad_clearance"
+    (condition "(A.insideCourtyard('RN1') || A.insideCourtyard('RN2') || A.insideCourtyard('RN3') || A.insideCourtyard('RN4') || A.insideCourtyard('RN5') || A.insideCourtyard('RN6')) && (B.insideCourtyard('RN1') || B.insideCourtyard('RN2') || B.insideCourtyard('RN3') || B.insideCourtyard('RN4') || B.insideCourtyard('RN5') || B.insideCourtyard('RN6')) && A.Type == 'Pad' && B.Type == 'Pad'")
+    (constraint clearance (min 0.15mm))
+)
+
+(rule "TRANS_PSMN075_100MSE_pad_clearance"
+    (condition "(A.insideCourtyard('Q1') || A.insideCourtyard('Q2') || A.insideCourtyard('Q3') || A.insideCourtyard('Q4') || A.insideCourtyard('Q5') || A.insideCourtyard('Q6') || A.insideCourtyard('Q7') || A.insideCourtyard('Q8') || A.insideCourtyard('Q9')) && (B.insideCourtyard('Q1') || B.insideCourtyard('Q2') || B.insideCourtyard('Q3') || B.insideCourtyard('Q4') || B.insideCourtyard('Q5') || B.insideCourtyard('Q6') || B.insideCourtyard('Q7') || B.insideCourtyard('Q8') || B.insideCourtyard('Q9')) && A.Type == 'Pad' && B.Type == 'Pad'")
+    (constraint clearance (min 0.22mm))
+)
