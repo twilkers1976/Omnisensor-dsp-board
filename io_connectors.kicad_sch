@@ -11584,7 +11584,7 @@
 				)
 			)
 		)
-		(property "Value" "2PH2R-10-UA"
+		(property "Value" "2PH2-10-UA"
 			(at 55.88 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11605,7 +11605,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/199986/2ph2r-xx-ua-data-sheet.pdf"
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/200454/2ph2-xx-ua-data-sheet.pdf"
 			(at 54.61 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -11638,7 +11638,7 @@
 				)
 			)
 		)
-		(property "Part Number" "2PH2R-10-UA"
+		(property "Part Number" "2PH2-10-UA"
 			(at 54.61 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -20374,7 +20374,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2PH1R-05-UA"
+		(property "Value" "2PH1-05-UA"
 			(at 153.67 132.0801 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20396,7 +20396,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.adafruit.com/product/6250"
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/200457/2ph1-xx-ua-data-sheet.pdf"
 			(at 151.13 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -20429,7 +20429,7 @@
 				)
 			)
 		)
-		(property "Part Number" "2PH1R-05-UA"
+		(property "Part Number" "2PH1-05-UA"
 			(at 151.13 134.62 0)
 			(hide yes)
 			(show_name no)
